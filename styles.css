@@ -1,6 +1,8 @@
 .btn{
-    background-color: blue;
+    
+    background-color: gray;
+    color: aliceblue;
 }
 body{
-    background-color: brown;
+    background-color: azure;
 }
