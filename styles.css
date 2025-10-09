@@ -1,8 +1,44 @@
 .btn{
-    
+
     background-color: gray;
     color: aliceblue;
 }
 body{
     background-color: azure;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    
+
+}
+.txt{
+    text-align: center;
+}
+
+.exp{
+    text-decoration: solid;
+}
+.title{
+    text-align: center;
+}
+.box>p{
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.box>img{
+    width: 200px;
+    height: 200px;
+    border-radius: 6px;
+}
+.box{
+    width: 300px;
+    background-color: rgb(91, 152, 152);
+    border-radius: 25px;
+    padding: 10px;
+    justify-content:center ;
+    text-align: center;
 }
