@@ -1,3 +1,20 @@
+body{
+    text-align: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
 .box{
-    color: black;
+    margin: auto;
+    padding: 20px;
+    
+}
+.choise>button{
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: rgb(24, 45, 91);
+    color: white;
+    border-radius: 10px;
 }
