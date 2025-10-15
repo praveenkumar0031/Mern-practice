@@ -1,8 +1,8 @@
-console.log("hello world");
-console.log(a);
-var a=7;
-let obj1={a:9}
-let obj2=obj1
-console.log(obj1)
-obj2.a=0
-con
+function find(n){
+    if(n%2==1)
+        console.log(n+" true");
+    else 
+        console.log(n+" false");
+}
+let ar=[2,3,4,5,6,7];
+ar.map(find)
